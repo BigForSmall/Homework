@@ -1,4 +1,4 @@
-body {
+body{
   font-family: 'Cousine', 'Roboto', monospace;
   font-size: 25px;
   background-color: #f8fb41;
@@ -9,9 +9,14 @@ header{
   text-align: center;
 }
 nav{
+  display: inline-block;
   background-color: #e8fd44;
+  width:80%;
 }
-li{
+nav img{
+  width: 10%;
+}
+/* li{
   display: inline-block;
   list-style: none;
   text-align: center;
@@ -19,16 +24,22 @@ li{
   font-size: 20px;
   padding: 1%;
   background-color: #7af08e;
-}
+} */
 main {
   background-color: #b5fd1c;
   font-size: 25px;
 }
-#dog {
-  display: inline-block;
-  padding-left: auto;
-  padding-right: auto;
-  width: 25%;
+div.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+div.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 a{
   color: #08351c;
