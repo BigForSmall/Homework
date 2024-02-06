@@ -6,17 +6,23 @@
   <link rel="stylesheet" href="css/gallery.css">
   <script src = "js/gallery.js"></script>
 </head>
-<body>
+<body onload="addFocus()">
 
   <div id = "image">
     Hover over an image below to display here.
   </div>
 
-  <img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+  <img class = "preview" src = "img/guacamole.jpg" alt = "A plate of guacamole" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
 
-  <img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+  <img class = "preview" src = "img/pumpkin_soup.jpg" alt = "A bowl of pumpkin soup" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
 
-  <img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+  <img class = "preview" src = "img/chicken_salad.jpg" alt = "A plate of chicken salad" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+  <img class = "preview" src = "img/baked_salmon.jpg" alt = "Baked salmon on a plate" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+  <img class = "preview" src = "img/bacon_rolls.jpg" alt = "Bacon rolls on a cutting board" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+
+  <img class = "preview" src = "img/choco_cake.jpg" alt = "A piece of chocolate cake on a plate" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
 
 </body>
 </html>
