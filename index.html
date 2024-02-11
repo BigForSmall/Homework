@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Photo Gallery</title>
-  <link rel="stylesheet" href="css/gallery.css">
-  <script src = "js/gallery.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My favorite food</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body onload="addFocus()">
 
-  <div id = "image">
-    Hover over an image below to display here.
-  </div>
+<body>
+  <header>
+    <h1 id="top">My favorite food!</h1>
+  </header>
 
-  <img class = "preview" src = "img/guacamole.jpg" alt = "A plate of guacamole" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+  <main>
+    <p>What can be better than a good meal? A good meal with a good friend. I like to eat good food with my friends. We often meet up at a restaurant and eat together. We usually order different food and taste it.</p>
 
-  <img class = "preview" src = "img/pumpkin_soup.jpg" alt = "A bowl of pumpkin soup" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+    <p>I enjoy staring at the food pictures and hopefully so do you. If you are hungry, do not hesitate to cook or order something. It's always a good idea to eat a proper meal. I hope you enjoy your food!</p>
 
-  <img class = "preview" src = "img/chicken_salad.jpg" alt = "A plate of chicken salad" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
+    <div class = "grid">
+        <figure>
+        <img src="images/fruit_oatmeal.jpg" alt="Fruits and oatmeal on a plate">
+        <figcaption>Fruits</figcaption>
+        </figure>
+        <figure>
+        <img src="images/guacamole.jpg" alt="A bowl of guacamole">
+        <figcaption>Guacamole</figcaption>
+        </figure>
+        <figure>
+        <img src="images/pumpkin_soup.jpg" alt="A bowl of pumpkin soup">
+        <figcaption>Pumpkin soup</figcaption>
+        </figure>
+        <figure>
+        <img src="images/chicken_salad.jpg" alt="A plate of chicken salad">
+        <figcaption>Chicken salad</figcaption>
+        </figure>
+        <figure>
+        <img src="images/baked_salmon.jpg" alt="A piece of baked salmon on a plate">
+        <figcaption>Baked salmon</figcaption>
+        </figure>
+        <figure>
+        <img src="images/turkey_cutlet.jpg" alt="A plate with turkey cutlet">
+        <figcaption>Turkey cutlet</figcaption>
+        </figure>
+        <figure>
+        <img src="images/bacon_rolls.jpg" alt="Bacon rolls on a cutting board">
+        <figcaption>Bacon rolls</figcaption>
+        </figure>
+        <figure>
+        <img src="images/cheesecake2.jpg" alt="A cheesecake with berries">
+        <figcaption>Cheesecake</figcaption>
+        </figure>
+        <figure>
+        <img src="images/choco_cake.jpg" alt="A piece of chocolate cake on a plate">
+        <figcaption>Chocolate cake</figcaption>
+        </figure>
+    </div>
+  </main>
 
-  <img class = "preview" src = "img/baked_salmon.jpg" alt = "Baked salmon on a plate" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
-
-  <img class = "preview" src = "img/bacon_rolls.jpg" alt = "Bacon rolls on a cutting board" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
-
-  <img class = "preview" src = "img/choco_cake.jpg" alt = "A piece of chocolate cake on a plate" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur="unDo()">
-
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
 </body>
+
 </html>
